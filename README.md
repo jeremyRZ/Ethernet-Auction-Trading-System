@@ -35,3 +35,15 @@
 
 - Index page： displaying existing products.
 ![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/indexpage.png)
+
+
+- Upload product page： upload products and set up auction information through visual page operations
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/productdetail.png)
+
+
+- Product Detail page： show details of products.
+![Detail Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/product.png)
+
+
+- Ganache page： Display blockchain information.
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/indexpage.png)
