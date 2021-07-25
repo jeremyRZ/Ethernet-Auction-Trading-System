@@ -25,10 +25,6 @@ contract Escrow {
   emit CreateEscrow(_productId, _buyer, _seller, _arbiter);
  }
 
- function escrowInfo() view public returns (address, address, address, bool, uint, uint) {
-  return (buyer, seller, arbiter, fundsDisbursed, releaseCount, refundCount);
- }
-
  function releaseAmountToSeller(address caller) public {
   require(!fundsDisbursed);
   if ((caller == buyer || caller == seller || caller == arbiter) && releaseAmount[caller] != true) {
@@ -38,7 +34,7 @@ contract Escrow {
   }
 
   if (releaseCount == 2) {
-   seller.transfer(amount);
+   address(uint160(seller)).transfer(amount);
    fundsDisbursed = true;
    emit DisburseAmount(productId, amount, seller);
   }
@@ -53,7 +49,7 @@ contract Escrow {
   }
 
   if (refundCount == 2) {
-   buyer.transfer(amount);
+   address(uint160(buyer)).transfer(amount);
    fundsDisbursed = true;
    emit DisburseAmount(productId, amount, buyer);
   }

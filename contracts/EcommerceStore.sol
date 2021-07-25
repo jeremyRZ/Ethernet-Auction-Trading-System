@@ -1,6 +1,6 @@
 pragma solidity ^0.5.16;
 //EcommerceStore
-import "contracts/Escrow.sol";
+import "./Escrow.sol";
 
 contract EcommerceStore {
     //定义枚举ProductStatus
@@ -183,7 +183,7 @@ function finalizeAuction(uint _productId) public {
   // The bidder only pays the amount equivalent to second highest bidder
   // Refund the difference
   uint refund = product.highestBid - product.secondHighestBid;
-  product.highestBidder.transfer(refund);
+  address(uint160(product.highestBidder)).transfer(refund);
  }
  stores[productIdInStore[_productId]][_productId] = product;
 
