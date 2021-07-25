@@ -46,4 +46,4 @@
 
 
 - Ganache page： Display blockchain information.
-![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/indexpage.png)
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/gan.png)
