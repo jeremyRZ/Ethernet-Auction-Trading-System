@@ -30,3 +30,20 @@
 5. `truffle migrate` Migrate smart contracts and deploy them on the blockchain
 6. `truffle exec seed.js` Adding products to the Blockchain, where the corresponding hash value of the js file needs to be replaced from the first step.
 7. `npm run dev` Open web service
+
+## Some screenshots
+
+- Index page： displaying existing products.
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/indexpage.png)
+
+
+- Upload product page： upload products and set up auction information through visual page operations
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/productdetail.png)
+
+
+- Product Detail page： show details of products.
+![Detail Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/product.png)
+
+
+- Ganache page： Display blockchain information.
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/gan.png)
