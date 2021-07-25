@@ -30,3 +30,5 @@
 5. `truffle migrate` Migrate smart contracts and deploy them on the blockchain
 6. `truffle exec seed.js` Adding products to the Blockchain, where the corresponding hash value of the js file needs to be replaced from the first step.
 7. `npm run dev` Open web service
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
