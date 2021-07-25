@@ -31,4 +31,7 @@
 6. `truffle exec seed.js` Adding products to the Blockchain, where the corresponding hash value of the js file needs to be replaced from the first step.
 7. `npm run dev` Open web service
 
-![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+## Some screenshots
+
+- Index page： displaying existing products.
+![Index Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/indexpage.png)
