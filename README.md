@@ -21,6 +21,9 @@
 - Escrow Contract: Once the bidding is over and there is a winner for the item, only an escrow contract will be created between the buyer, seller and an arbitrary third party.
 - 2/3 signatures: Add fraud protection by implementing 2/3 multiple signatures, i.e. two out of three participants agree to release funds to the seller or return funds to the buyer.
 
+## System Architecture
+![System Architecture Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/product.png)
+
 ## Step
 
 1. `npm install -g truffle` if it is not installed already.
