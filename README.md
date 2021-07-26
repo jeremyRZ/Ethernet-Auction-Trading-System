@@ -22,7 +22,7 @@
 - 2/3 signatures: Add fraud protection by implementing 2/3 multiple signatures, i.e. two out of three participants agree to release funds to the seller or return funds to the buyer.
 
 ## System Architecture
-![System Architecture Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/product.png)
+![System Architecture Page](https://raw.githubusercontent.com/jeremyRZ/Ethernet-Auction-Trading-System/main/screenshot/System%20Architecture.png)
 
 ## Step
 
